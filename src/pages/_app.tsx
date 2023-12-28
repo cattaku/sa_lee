@@ -9,9 +9,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <ThemeProvider theme={theme}>
         <GlobalStyle />
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
+        <Layout children={<Component {...pageProps} />} />
       </ThemeProvider>
     </>
 

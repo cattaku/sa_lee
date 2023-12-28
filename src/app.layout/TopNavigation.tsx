@@ -4,7 +4,7 @@ import Link from "next/link";
 const TopNavigation = () => {
   return (
     <StyledWrapper>
-      <div>Sooah</div>
+      <Link href='/'>Sooah</Link>
       <div className="menu">
         <span>
           <Link href="/about-me">about me</Link>
@@ -20,10 +20,11 @@ const TopNavigation = () => {
 export default TopNavigation;
 
 const StyledWrapper = styled.div`
-  background: linear-gradient(90deg, #ff8a00, #e52e71);
-  margin: 10px;
   display: flex;
   justify-content: space-between;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(90deg, #ffffff, #FBF9EB, #ff8a00);
   .menu {
     display: inline-flex;
     div {

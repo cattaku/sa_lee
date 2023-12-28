@@ -17,4 +17,9 @@ export default function Layout({ children }: React.PropsWithChildren) {
 const LayoutWrapper = styled.div`
   width: 100%;
   margin: 0;
+  .footer-body {
+    margin: 20px 10px 10px;
+    text-align: center;
+    font-size: 8px;
+  }
 `

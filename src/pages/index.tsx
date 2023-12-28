@@ -1,19 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
+import React from "react";
+import ScreenMain from "@/app.feature/ScreenMain";
 
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>웹개발자 포트폴리오</title>
-        <meta name="description" content="nextjs portfolio" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-    </>
+    <ScreenMain />
   )
 }

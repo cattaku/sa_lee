@@ -32,7 +32,10 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <style />
+          <title>이수아 포트폴리오</title>
+          <meta name="description" content="nextjs portfolio" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link rel="icon" href="/favicon.ico" />
         </Head>
         <body>
         <Main />
