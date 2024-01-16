@@ -8,7 +8,9 @@ export default function Layout({ children }: React.PropsWithChildren) {
       <TopNavigation />
       {children}
       <div className="footer-body">
-        Copyright © 2023 by SooAh Lee, Inc. All rights reserved.
+        <span>
+          Copyright © 2023 by SooAh Lee, Inc. All rights reserved.
+        </span>
       </div>
     </LayoutWrapper>
   );
@@ -17,9 +19,15 @@ export default function Layout({ children }: React.PropsWithChildren) {
 const LayoutWrapper = styled.div`
   width: 100%;
   margin: 0;
+
   .footer-body {
-    margin: 20px 10px 10px;
+    padding: 20px 10px 10px;
     text-align: center;
     font-size: 8px;
+    background: linear-gradient(90deg, #984fe2, #FBF9EB, #ffffff);
+    opacity:0.1;
+    span {
+      
+    }
   }
 `
