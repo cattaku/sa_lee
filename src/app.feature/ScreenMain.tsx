@@ -6,7 +6,6 @@ const ScreenMain = () => {
       <div className="backgound-wrapper">
         main
       </div>
-
     </MainStyledWrapper>
   )
 }

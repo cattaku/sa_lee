@@ -29,7 +29,7 @@ const SkillTableWrapper = styled.div`
     display: flex;
     align-items: center;
     margin-bottom: 8px;
-  }ㅛ
+  }
 
   .bar {
     background-color: #3498db;

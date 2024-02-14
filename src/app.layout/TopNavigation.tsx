@@ -7,6 +7,9 @@ const TopNavigation = () => {
       <Link href='/'>Sooah</Link>
       <div className="menu">
         <span>
+          <Link href="/sooah">soo</Link>
+        </span>
+        <span>
           <Link href="/about-me">about me</Link>
         </span>
         <span>
@@ -25,10 +28,10 @@ const StyledWrapper = styled.div`
   margin: 0;
   padding: 20px;
   background: linear-gradient(90deg, #fcfafe, #f2e7fd, #e0c5fb, #984fe2);
-  border-bottom: 0.1px solid #984fe2;
+  border-bottom: 0.1px solid #f2e7fd;
   .menu {
     display: inline-flex;
-    div {
+    span {
       margin: 0 10px 0 10px;
     }
   }
