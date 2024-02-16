@@ -27,8 +27,8 @@ const StyledWrapper = styled.div`
   justify-content: space-between;
   margin: 0;
   padding: 20px;
-  background: linear-gradient(90deg, #fcfafe, #f2e7fd, #e0c5fb, #984fe2);
-  border-bottom: 0.1px solid #f2e7fd;
+  background:radial-gradient(rgba(255,254,234,1) 20%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
+
   .menu {
     display: inline-flex;
     span {

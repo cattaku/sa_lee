@@ -7,17 +7,18 @@ export default function Layout({ children }: React.PropsWithChildren) {
     <LayoutWrapper>
       <TopNavigation />
       {children}
-      <div className="footer-body">
-        <span>
-          Copyright © 2023 by SooAh Lee, Inc. All rights reserved.
-        </span>
-      </div>
+      {/*<div className="footer-body">*/}
+      {/*  <span>*/}
+      {/*    Copyright © 2023 by SooAh Lee, Inc. All rights reserved.*/}
+      {/*  </span>*/}
+      {/*</div>*/}
     </LayoutWrapper>
   );
 }
 
 const LayoutWrapper = styled.div`
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   margin: 0;
 
   .footer-body {
