@@ -3,7 +3,9 @@ import styled from "styled-components";
 const ScreenMain = () => {
   return (
     <MainStyledWrapper>
-      main
+      <div className="backgound-wrapper">
+        main
+      </div>
     </MainStyledWrapper>
   )
 }
@@ -15,4 +17,13 @@ const MainStyledWrapper = styled.div`
   align-items: center;
   height: 100vh;
   background: url('/images/main-bg.jpg') no-repeat center center;
+  background-size: cover;
+  
+
+  .backgound-wrapper {
+    width: 100vw;
+    height: inherit;
+    background-color: blueviolet;
+    opacity:0.1;
+  }
 `

@@ -22,15 +22,14 @@ const SkillTable = () => {
 export default SkillTable;
 
 const SkillTableWrapper = styled.div`
-  margin: 20px 10px;6
+  margin: 20px 10px;
   display: flex;
-  flex-directiㅊlex-start;
 
   .bar-container {
     display: flex;
     align-items: center;
     margin-bottom: 8px;
-  }ㅛ
+  }
 
   .bar {
     background-color: #3498db;

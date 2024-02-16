@@ -33,11 +33,7 @@ const AboutMeWrapper = styled.div`
       margin: 20px 10px;
     }
     ul li {
-    
-      }
       font-size: 10px;
     }
   }
-  
-  
 `
