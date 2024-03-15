@@ -6,15 +6,30 @@ const TopNavigation = () => {
     <StyledWrapper>
       <Link href='/'>Sooah</Link>
       <div className="menu">
-        <span>
-          <Link href="/sooah">soo</Link>
-        </span>
-        <span>
-          <Link href="/about-me">about me</Link>
-        </span>
-        <span>
-          <Link href="/career">career</Link>
-        </span>
+        <ul>
+          <li>
+            <Link href="/sooah">soo</Link>
+          </li>
+          <li>
+            <Link href="/about-me">about me</Link>
+          </li>
+          <li>
+            <Link href="/career">career</Link>
+          </li>
+          <li>
+            <Link href="/health">health</Link>
+          </li>
+          <li></li>
+        </ul>
+        {/*<span>*/}
+        {/*  <Link href="/sooah">soo</Link>  */}
+        {/*</span>*/}
+        {/*<span>*/}
+        {/*  <Link href="/about-me">about me</Link>*/}
+        {/*</span>*/}
+        {/*<span>*/}
+        {/*  <Link href="/career">career</Link>*/}
+        {/*</span>*/}
       </div>
     </StyledWrapper>
   );
